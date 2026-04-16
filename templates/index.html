@@ -9,16 +9,30 @@
             text-align: center;
             font-family: Arial;
         }
+        nav {
+            background-color: #1e293b;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 18px;
+        }
         h1 {
-            margin-top: 100px;
-            font-size: 40px;
+            margin-top: 50px;
+        }
+        input {
+            padding: 8px;
+            border-radius: 5px;
+            border: none;
         }
         button {
             padding: 10px 20px;
             background-color: #22c55e;
             border: none;
             color: white;
-            font-size: 18px;
+            font-size: 16px;
             cursor: pointer;
             border-radius: 8px;
         }
@@ -26,7 +40,14 @@
 </head>
 <body>
 
-     <h1>🚀 Welcome to Chaitanya's App</h1>
+    <!-- 🔥 NAVBAR -->
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+
+    <h1>🚀 Welcome to Chaitanya's App</h1>
 
     <form method="POST">
         <input type="text" name="username" placeholder="Enter your name" required>
@@ -38,3 +59,4 @@
 
 </body>
 </html>
+   
